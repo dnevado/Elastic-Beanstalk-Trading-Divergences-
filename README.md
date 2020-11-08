@@ -10,7 +10,8 @@ Automatic  environent to get automatic data in csv in Python, launching a small 
 
 ELB CLI to deploy application into an existing AWS account
 One everything is deployed ,  instance is accesible on IP:5000
-Dont forget to open Security Group on that port 
+Dont forget to open Security Group on that port 5000 
+Flask (Python runtime) requires to elevate permissions on port below 1024, be aware of that returned errors
 
 
 
